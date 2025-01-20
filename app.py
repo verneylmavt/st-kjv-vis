@@ -1,5 +1,5 @@
 import streamlit as st
-from streamlit_extras.mention import mention
+# from streamlit_extras.mention import mention
 
 def main():
     st.title("Bible Analysis and Visualization ✝️")
