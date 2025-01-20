@@ -2,7 +2,7 @@ import streamlit as st
 # from streamlit_extras.mention import mention
 
 def main():
-    st.title("Bible Analysis and Visualization ✝️")
+    st.title("KJV Bible Analysis and Visualization ✝️")
     st.write("""
         #### Work in Progress...
         Elvern Neylmav T is currently working on this page. Please check back later for updates. :smile:
