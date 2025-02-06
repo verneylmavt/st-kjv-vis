@@ -1,0 +1,8 @@
+data/en_core_web_sm filter=lfs diff=lfs merge=lfs
+data/en_core_web_sm-3.8.0.dist-info filter=lfs diff=lfs merge=lfs
+
+data/bib_locs.csv filter=lfs diff=lfs merge=lfs
+data/cross_references.txt filter=lfs diff=lfs merge=lfs
+data/events.csv filter=lfs diff=lfs merge=lfs
+
+data/kjv_cr.csv filter=lfs diff=lfs merge=lfs

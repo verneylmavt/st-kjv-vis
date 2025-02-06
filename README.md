@@ -41,3 +41,14 @@ Ensure you have the following installed:
    ```bash
    streamlit run app.py
    ``` -->
+
+## ⚖️ Acknowledgement
+
+I acknowledge the use of **The King James Bible** dataset provided by **kk99807** on Kaggle. This dataset has been instrumental in conducting the research and developing this project.
+
+- **Dataset Name**: The King James Bible
+- **Source**: [https://www.kaggle.com/datasets/kk99807/the-king-james-bible](https://www.kaggle.com/datasets/kk99807/the-king-james-bible)
+- **License**: Creative Commons 1.0
+- **Description**: This dataset contains the full text of **The King James Bible**, one of the most widely read and referenced translations of the Bible. It is commonly used for text analysis, natural language processing, and theological research.
+
+I deeply appreciate the efforts of kk99807 in making this dataset available.

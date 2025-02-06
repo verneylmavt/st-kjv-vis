@@ -1,1 +1,11 @@
 streamlit
+streamlit-extras
+spacy
+# numpy
+# pandas
+# altair
+plotly
+# matplotlib
+wordcloud
+# Pillow
+# pydeck
