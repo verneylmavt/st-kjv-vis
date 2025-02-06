@@ -4,10 +4,9 @@ This repository contains analysis and visualization of ing James Version (KJV) B
 
 Currently the Streamlit app is being configured, please run `jupyter notebook kjv.ipynb` file in the `training` folder instead.
 
-<!-- ## 🎈 Demo App
+## 🎈 Demo App
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://verneylogyt-kjv-vis.streamlit.app/)
-
 
 If you encounter message `This app has gone to sleep due to inactivity`, click `Yes, get this app back up!` button to wake the app back up.
 
@@ -15,14 +14,14 @@ If you encounter message `This app has gone to sleep due to inactivity`, click `
 
 If the demo page is not working, you can fork or clone this repository and run the application locally by following these steps:
 
-### Prerequisites
+<!-- ### Prerequisites
 
 Ensure you have the following installed:
 
 - Python 3.8 or later
 - pip (Python Package Installer)
 
-### Installation Steps
+### Installation Steps -->
 
 1. Clone the repository:
 
@@ -40,7 +39,7 @@ Ensure you have the following installed:
 3. Run the Streamlit app:
    ```bash
    streamlit run app.py
-   ``` -->
+   ```
 
 ## ⚖️ Acknowledgement
 
