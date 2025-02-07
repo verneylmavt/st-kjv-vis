@@ -75,21 +75,47 @@ I deeply appreciate the efforts of the providers in making these datasets availa
 
 ## 📊 Chart Gallery
 
-<img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/screenshots/1.png" width="90%"></img>
+<!-- <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/screenshots/1.png" width="90%"></img>
 <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/screenshots/7.png" width="45%"></img>
 <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/screenshots/8.png" width="45%"></img>
 <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/screenshots/10_1.png" width="45%"></img>
 <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/screenshots/10_2.png" width="45%"></img>
-
-<!-- <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/screenshots/10_3.png" width="45%"></img> -->
-
+<img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/screenshots/10_3.png" width="45%"></img>
 <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/screenshots/10_4.png" width="45%"></img>
-<img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/screenshots/10_5.png" width="45%"></img>
+<img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/screenshots/10_5.png" width="45%"></img> -->
 
 <details>
-  <summary>Image Gallery</summary>
+  <summary>Bible Overview</summary>
   <p>
-    <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/screenshots/10_4.png" alt="Image 1" width="600"/>
-    <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/screenshots/10_4.png" alt="Image 2" width="600"/>
+    <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/models/figure_bible_overview.png"/>
+  </p>
+</details>
+
+<details>
+  <summary>Bible Verses, Bible Chapters, Bible Books</summary>
+  <p>
+    <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/models/figure_verses_book.png"/>
+    <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/models/figure_chapters_book.png"/>
+    <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/models/figure_verses_chapter.png"/>
+    <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/models/figure_lex_rich_book.png"/>
+    <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/models/figure_snt_book.png"/>
+  </p>
+</details>
+
+<details>
+  <summary>Bible Events</summary>
+  <p>
+    <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/models/figure_timeline_bc.png"/>
+    <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/models/figure_timeline_ad.png"/>
+  </p>
+</details>
+
+<details>
+  <summary>Bible Cross-References</summary>
+  <p>
+    <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/models/figure_cr_hm.png"/>
+    <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/models/figure_cr_cd.png"/>
+    <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/models/figure_cr_sd.png"/>
+    <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/models/figure_cr_ng.png"/>
   </p>
 </details>

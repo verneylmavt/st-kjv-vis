@@ -1029,7 +1029,7 @@ def bib_events():
     
 
 def bib_cr():
-    st.header("Bible Cross-Reference")
+    st.header("Bible Cross-References")
     
     chart = st.selectbox(
             "Chart",
@@ -1108,7 +1108,7 @@ def main():
                                     "Verses / Book", "Chapters / Book", "Verses / Chapter", 
                                     "Lexical Richness / Book", "Sentiment / Book",
                                     "Word Cloud", 
-                                    "Bible Sites", "Bible Events", "Bible Cross-Reference"])
+                                    "Bible Sites", "Bible Events", "Bible Cross-References"])
     
     if category == "Bible Overview":
         bible_overview()    
@@ -1128,7 +1128,7 @@ def main():
         bib_sites()
     elif category == "Bible Events":
         bib_events()
-    elif category == "Bible Cross-Reference":
+    elif category == "Bible Cross-References":
         bib_cr()
 
 if __name__ == "__main__":
