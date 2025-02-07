@@ -47,11 +47,11 @@ Ensure you have the following installed:
 
 I acknowledge the use of the following datasets, which have been instrumental in conducting the research and developing this project:
 
-### The King James Bible
+### King James Version Bible
 
 - **Source**: [https://www.kaggle.com/datasets/kk99807/the-king-james-bible](https://www.kaggle.com/datasets/kk99807/the-king-james-bible)
 - **License**: Creative Commons 1.0
-- **Description**: This dataset contains the full text of The King James Bible, one of the most widely read and referenced translations of the Bible.
+- **Description**: This dataset contains the full text of King James Version Bible, one of the most widely read and referenced translations of the Bible.
 
 ### OpenBible.info - Bible Geocoding
 
