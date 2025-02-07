@@ -1,12 +1,17 @@
 # ✝️ King James Version (KJV) Bible Analysis and Visualization
 
-This repository contains analysis and visualization of ing James Version (KJV) Bible, designed to be utilized in a Streamlit-based web application. The app provides an interactive interface for visualizing the stats.
+This repository contains analysis and visualization of King James Version (KJV) Bible, designed to be utilized in a Streamlit-based web application. The app provides an interactive interface for visualizing the stats.
 
-Currently the Streamlit app is being configured, please run `jupyter notebook kjv.ipynb` file in the `training` folder instead.
+For more information about the training process, please check the `kjv.ipynb`, `kjv_cr.ipynb`, and `kjv_timeline.ipynb` file in the `training` folder.
 
 ## 🎈 Demo App
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://verneylogyt-kjv-vis.streamlit.app/)
+
+![Demo GIF](https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/demo.gif)
+
+<!-- <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/demo_1.gif" width="50%"></img>
+<img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/demo_2.gif" width="50%"></img> -->
 
 If you encounter message `This app has gone to sleep due to inactivity`, click `Yes, get this app back up!` button to wake the app back up.
 
@@ -38,7 +43,7 @@ Ensure you have the following installed:
 
 3. Run the Streamlit app:
    ```bash
-   streamlit run app.py
+   streamlit run app_local.py
    ```
 
 ## ⚖️ Acknowledgement

@@ -193,53 +193,53 @@ def load_pos_map():
     }
     return pos_map
 
-# @st.cache_data
-# def load_fig_cr_cd():
-#     with open("models/figure_cr_cd.json", 'r') as f:
-#         figure_cr_cd_json = f.read()
+@st.cache_data
+def load_fig_cr_cd():
+    with open("models/figure_cr_cd.json", 'r') as f:
+        figure_cr_cd_json = f.read()
     
-#     fig = go.Figure(json.loads(figure_cr_cd_json))
-#     return fig
+    fig = go.Figure(json.loads(figure_cr_cd_json))
+    return fig
 
-# @st.cache_data
-# def load_fig_cr_sd():
-#     with open("models/figure_cr_sd.json", 'r') as f:
-#         figure_cr_sd_json = f.read()
+@st.cache_data
+def load_fig_cr_sd():
+    with open("models/figure_cr_sd.json", 'r') as f:
+        figure_cr_sd_json = f.read()
     
-#     fig = go.Figure(json.loads(figure_cr_sd_json))
-#     return fig
+    fig = go.Figure(json.loads(figure_cr_sd_json))
+    return fig
 
-# @st.cache_data
-# def load_fig_cr_hm():
-#     with open("models/figure_cr_hm.json", 'r') as f:
-#         figure_cr_hm_json = f.read()
+@st.cache_data
+def load_fig_cr_hm():
+    with open("models/figure_cr_hm.json", 'r') as f:
+        figure_cr_hm_json = f.read()
     
-#     fig = go.Figure(json.loads(figure_cr_hm_json))
-#     return fig
+    fig = go.Figure(json.loads(figure_cr_hm_json))
+    return fig
 
-# @st.cache_data
-# def load_fig_cr_ng():
-#     with open("models/figure_cr_ng.json", 'r') as f:
-#         figure_cr_ng_json = f.read()
+@st.cache_data
+def load_fig_cr_ng():
+    with open("models/figure_cr_ng.json", 'r') as f:
+        figure_cr_ng_json = f.read()
     
-#     fig = go.Figure(json.loads(figure_cr_ng_json))
-#     return fig
+    fig = go.Figure(json.loads(figure_cr_ng_json))
+    return fig
 
-# @st.cache_data
-# def load_fig_timeline_bc():
-#     with open("models/figure_timeline_ad.json", 'r') as f:
-#         figure_timeline_bc_json = f.read()
+@st.cache_data
+def load_fig_timeline_bc():
+    with open("models/figure_timeline_ad.json", 'r') as f:
+        figure_timeline_bc_json = f.read()
     
-#     fig = go.Figure(json.loads(figure_timeline_bc_json))
-#     return fig
+    fig = go.Figure(json.loads(figure_timeline_bc_json))
+    return fig
 
-# @st.cache_data
-# def load_fig_timeline_ad():
-#     with open("models/figure_timeline_ce.json", 'r') as f:
-#         figure_timeline_ad_json = f.read()
+@st.cache_data
+def load_fig_timeline_ad():
+    with open("models/figure_timeline_ce.json", 'r') as f:
+        figure_timeline_ad_json = f.read()
     
-#     fig = go.Figure(json.loads(figure_timeline_ad_json))
-#     return fig
+    fig = go.Figure(json.loads(figure_timeline_ad_json))
+    return fig
 
 @st.cache_data
 def load_fig_cr_pv():
@@ -250,6 +250,7 @@ def load_fig_cr_pv():
 # ----------------------
 # Page Function (Charts)
 # ----------------------
+
 
 def bible_overview():
     st.header("Bible Overview")
@@ -825,13 +826,11 @@ def word_cloud():
             doc = nlp(text)
             tokens = [token.text for token in doc if token.pos_ == pos_tag]
             texts = " ".join(tokens)
-        
             
         number = random.randint(1, 7)    
         coloring = np.array(Image.open(f"assets/wordcloud/{number}.png"))
         
         stopwords = set(STOPWORDS)
-        
         
         wordcloud = WordCloud(
                             background_color="white",
@@ -846,17 +845,17 @@ def word_cloud():
         
         wordcloud_image = wordcloud.to_image()
         
-        
         def remove_bg(wordcloud_image):
             img = wordcloud_image.convert("RGBA")
             datas = img.getdata()
+            
             new_data = []
             for item in datas:
                 if item[0] == 255 and item[1] == 255 and item[2] == 255:
                     new_data.append((255, 255, 255, 0))
                 else:
                     new_data.append(item)
-                    
+
             img.putdata(new_data)
             return img
         
@@ -1005,22 +1004,16 @@ def bib_events():
     st.header("Bible Events")
 
     st.subheader("BC (Before Christ)")
-    # fig = load_fig_timeline_bc()
-    # st.plotly_chart(fig, use_container_width=True)
-    st.image("assets/models/figure_timeline_bc.png", use_container_width=True)
+    fig = load_fig_timeline_bc()
+    st.plotly_chart(fig, use_container_width=True)
     
     st.write("")
     
     st.subheader("AD (Anno Domini) 'In the Year of Our Lord'")
-    # fig = load_fig_timeline_ad()
-    # st.plotly_chart(fig, use_container_width=True)
-    st.image("assets/models/figure_timeline_ad.png", use_container_width=True)
+    fig = load_fig_timeline_ad()
+    st.plotly_chart(fig, use_container_width=True)
     
     st.divider()
-    st.warning("""__Disclaimer__: This chart has been downloaded for faster loading.  
-                To view the interactive version, run `app_local.py` from https://github.com/verneylmavt/st-kjv-vis.
-                """, icon="⚠")
-    
     container = st.container(border=True)
     container.markdown("""
     __Source__: Viz.Bible - Events by Robert Rouse  
@@ -1038,51 +1031,43 @@ def bib_cr():
     
     if chart:
         if chart == "Heatmap":
-            # fig = load_fig_cr_hm()
-            # fig.update_layout(
-            #     width=1200,
-            #     height=1200,
-            #     font=dict(size=12)
-            # )
-            # st.plotly_chart(fig, use_container_width=True)
-            st.image("assets/models/figure_cr_hm.png", use_container_width=True)
+            fig = load_fig_cr_hm()
+            fig.update_layout(
+                width=1200,
+                height=1200,
+                font=dict(size=12)
+            )
+            st.plotly_chart(fig, use_container_width=True)
             
         elif chart == "Chord Diagram":
-            # fig = load_fig_cr_cd()
-            # fig.update_layout(
-            #     width=1200,
-            #     height=1200,
-            # )
-            # st.plotly_chart(fig, use_container_width=True)
-            st.image("assets/models/figure_cr_cd.png", use_container_width=True)
+            fig = load_fig_cr_cd()
+            fig.update_layout(
+                width=1200,
+                height=1200,
+            )
+            st.plotly_chart(fig, use_container_width=True)
         
         elif chart == "Sankey Diagram":
-            # fig = load_fig_cr_sd()
-            # fig.update_layout(
-            #     width=1200,
-            #     height=1500,
-            # )
-            # st.plotly_chart(fig, use_container_width=True)
-            st.image("assets/models/figure_cr_sd.png", use_container_width=True)
+            fig = load_fig_cr_sd()
+            fig.update_layout(
+                width=1200,
+                height=1500,
+            )
+            st.plotly_chart(fig, use_container_width=True)
             
         elif chart == "Network Graph (Plotly)":
-            # fig = load_fig_cr_ng()
-            # fig.update_layout(
-            #     width=1200,
-            #     height=1200,
-            # )
-            # st.plotly_chart(fig, use_container_width=True)
-            st.image("assets/models/figure_cr_ng.png", use_container_width=True)
+            fig = load_fig_cr_ng()
+            fig.update_layout(
+                width=1200,
+                height=1200,
+            )
+            st.plotly_chart(fig, use_container_width=True)
             
         elif chart == "Network Graph (Pyvis)":
             html = load_fig_cr_pv()
             components.html(html, height=1100, scrolling=True)
         
         st.divider()
-        st.warning("""__Disclaimer__: This chart has been downloaded for faster loading.  
-                To view the interactive version, run `app_local.py` from https://github.com/verneylmavt/st-kjv-vis.
-                """, icon="⚠")
-        
         container = st.container(border=True)
         container.markdown("""
         __Source__: OpenBible.info - Bible Cross References  
