@@ -85,3 +85,11 @@ I deeply appreciate the efforts of the providers in making these datasets availa
 
 <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/screenshots/10_4.png" width="45%"></img>
 <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/screenshots/10_5.png" width="45%"></img>
+
+<details>
+  <summary>Image Gallery</summary>
+  <p>
+    <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/screenshots/10_4.png" alt="Image 1" width="600"/>
+    <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/screenshots/10_4.png" alt="Image 2" width="600"/>
+  </p>
+</details>
