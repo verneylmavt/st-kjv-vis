@@ -75,6 +75,13 @@ I deeply appreciate the efforts of the providers in making these datasets availa
 
 ## 📊 Chart Gallery
 
-<img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/screenshots/10_3.png" width="45%"></img>
+<img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/screenshots/1.png" width="90%"></img>
+<img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/screenshots/7.png" width="45%"></img>
+<img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/screenshots/8.png" width="45%"></img>
+<img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/screenshots/10_1.png" width="45%"></img>
+<img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/screenshots/10_2.png" width="45%"></img>
+
+<!-- <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/screenshots/10_3.png" width="45%"></img> -->
+
 <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/screenshots/10_4.png" width="45%"></img>
 <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/screenshots/10_5.png" width="45%"></img>
