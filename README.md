@@ -75,5 +75,5 @@ I deeply appreciate the efforts of the providers in making these datasets availa
 
 ## 📊 Chart Gallery
 
-<img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/screenshots/10_4.png" width="50%"></img>
-<img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/screenshots/10_5.png" width="50%"></img>
+<img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/screenshots/10_4.png" width="45%"></img>
+<img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/screenshots/10_5.png" width="45%"></img>
