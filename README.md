@@ -103,6 +103,26 @@ I deeply appreciate the efforts of the providers in making these datasets availa
 </details>
 
 <details>
+  <summary>Bible WordCloud</summary>
+  <p>
+    <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/wordcloud/1.png" width="45%"></img>
+    <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/wordcloud/1_example.jpg" width="45%"></img>
+    <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/wordcloud/2.png" width="45%"></img>
+    <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/wordcloud/2_example.jpg" width="45%"></img>
+    <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/wordcloud/3.png" width="45%"></img>
+    <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/wordcloud/3_example.jpg" width="45%"></img>
+    <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/wordcloud/4.png" width="45%"></img>
+    <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/wordcloud/4_example.jpg" width="45%"></img>
+    <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/wordcloud/5.png" width="45%"></img>
+    <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/wordcloud/5_example.jpg" width="45%"></img>
+    <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/wordcloud/6.png" width="45%"></img>
+    <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/wordcloud/6_example.jpg" width="45%"></img>
+    <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/wordcloud/7.png" width="45%"></img>
+    <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/wordcloud/7_example.jpg" width="45%"></img>
+  </p>
+</details>
+
+<details>
   <summary>Bible Events</summary>
   <p>
     <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/models/figure_timeline_bc.png"/>
