@@ -48,11 +48,30 @@ Ensure you have the following installed:
 
 ## ⚖️ Acknowledgement
 
-I acknowledge the use of **The King James Bible** dataset provided by **kk99807** on Kaggle. This dataset has been instrumental in conducting the research and developing this project.
+I acknowledge the use of the following datasets, which have been instrumental in conducting the research and developing this project:
 
-- **Dataset Name**: The King James Bible
+### The King James Bible
+
 - **Source**: [https://www.kaggle.com/datasets/kk99807/the-king-james-bible](https://www.kaggle.com/datasets/kk99807/the-king-james-bible)
 - **License**: Creative Commons 1.0
-- **Description**: This dataset contains the full text of **The King James Bible**, one of the most widely read and referenced translations of the Bible. It is commonly used for text analysis, natural language processing, and theological research.
+- **Description**: This dataset contains the full text of The King James Bible, one of the most widely read and referenced translations of the Bible.
 
-I deeply appreciate the efforts of kk99807 in making this dataset available.
+### OpenBible.info - Bible Geocoding
+
+- **Source**: [https://www.openbible.info/geo/](https://www.openbible.info/geo/)
+- **License**: Creative Commons Attribution 4.0 International
+- **Description**: This dataset contains the locations of every identifiable place mentioned in the Bible, compiled from over seventy modern sources.
+
+### Viz.Bible - Events
+
+- **Source**: [https://viz.bible/](https://viz.bible/)
+- **License**: Creative Commons Attribution Share Alike 4.0 International
+- **Description**: This dataset contains a structured timeline of biblical events, including details such as dates, duration, predecessors, participants, locations, and corresponding verses.
+
+### OpenBible.info - Bible Cross References
+
+- **Source**: [https://www.openbible.info/labs/cross-references/](https://www.openbible.info/labs/cross-references/)
+- **License**: Creative Commons Attribution 4.0 International
+- **Description**: This dataset contains approximately 340,000 cross references linking different parts of the Bible based on similar themes, words, events, or people.
+
+I deeply appreciate the efforts of the providers in making these datasets available.
