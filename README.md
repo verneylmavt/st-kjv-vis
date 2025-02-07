@@ -117,5 +117,7 @@ I deeply appreciate the efforts of the providers in making these datasets availa
     <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/models/figure_cr_cd.png"/>
     <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/models/figure_cr_sd.png"/>
     <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/models/figure_cr_ng.png"/>
+    <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/models/figure_cr_ng_spiral.png"/>
+    <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/models/figure_cr_ng_snail.png"/>
   </p>
 </details>
