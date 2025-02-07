@@ -10,9 +10,6 @@ For more information about the training process, please check the `kjv.ipynb`, `
 
 ![Demo GIF](https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/demo.gif)
 
-<!-- <img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/demo_1.gif" width="50%"></img>
-<img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/demo_2.gif" width="50%"></img> -->
-
 If you encounter message `This app has gone to sleep due to inactivity`, click `Yes, get this app back up!` button to wake the app back up.
 
 ## ⚙️ Running Locally
@@ -75,3 +72,8 @@ I acknowledge the use of the following datasets, which have been instrumental in
 - **Description**: This dataset contains approximately 340,000 cross references linking different parts of the Bible based on similar themes, words, events, or people.
 
 I deeply appreciate the efforts of the providers in making these datasets available.
+
+## 📊 Chart Gallery
+
+<img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/screenshots/10_4.png" width="50%"></img>
+<img src="https://github.com/verneylmavt/st-kjv-vis/blob/main/assets/screenshots/10_5.png" width="50%"></img>
