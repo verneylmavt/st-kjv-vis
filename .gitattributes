@@ -11,3 +11,5 @@ data/kjv_cr.csv filter=lfs diff=lfs merge=lfs
 # assets/demo_2.gif filter=lfs diff=lfs merge=lfs
 
 assets/demo.gif filter=lfs diff=lfs merge=lfs
+
+dataset/* filter=lfs diff=lfs merge=lfs
