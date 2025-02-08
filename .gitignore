@@ -2,6 +2,10 @@ data/bible_timeline.txt
 data/bible.md
 
 data/kjv_cr_all.csv
+data/t_asv.csv
+data/tb.csv
+data/AKJV.csv
+data/Bible_English_ESV.db
 
 assets/demo_1.gif
 assets/demo_2.gif
