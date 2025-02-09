@@ -8,6 +8,8 @@ In addition to the textual and referential analysis, the repository extends its 
 
 For more information about the training process, please check the `kjv.ipynb`, `kjv_cr.ipynb`, and `kjv_timeline.ipynb` file in the `training` folder.
 
+---
+
 ## 🎈 Demo App
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://verneylogyt-kjv-vis.streamlit.app/)
