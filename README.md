@@ -1,6 +1,10 @@
 # ✝️ King James Version (KJV) Bible Analysis and Visualization
 
-This repository contains analysis and visualization of King James Version (KJV) Bible, designed to be utilized in a Streamlit-based web application. The app provides an interactive interface for visualizing the stats.
+This repository provides a comprehensive exploration of Bible datasets by delving deep into the multifaceted dimensions of biblical texts. It offers an in‐depth analysis of the scriptures through metrics such as verse counts, chapter distributions, lexical richness, and sentiment across all the books, while also presenting a detailed overview of the Bible’s organizational structure—from the broad divisions of the Old and New Testaments down to the individual books. The visualizations capture the internal structure and thematic nuances of the Bible, revealing patterns and relationships within its extensive textual tradition.
+
+This repository also examines the interconnections between the various books by mapping out the intricate network of cross-references. It highlights how passages in one book relate to and resonate with those in another, using visual tools like heatmaps, chord diagrams, Sankey diagrams, and network graphs to illustrate the flow of ideas and scriptural dialogue. These visual representations bring to light the rich tapestry of intertextual references that underscore the unity and complexity of the biblical narrative.
+
+In addition to the textual and referential analysis, the repository extends its exploration into the historical and geographical realms of the Bible. It presents a timeline of significant biblical events, covering both BC and AD periods, and details the duration and context of these events along with their scriptural connections. Complementing the timeline, a mapping of ancient and modern biblical sites is provided, linking geographical locations with corresponding verses to offer insights into the historical landscape that underpins the biblical world.
 
 For more information about the training process, please check the `kjv.ipynb`, `kjv_cr.ipynb`, and `kjv_timeline.ipynb` file in the `training` folder.
 
