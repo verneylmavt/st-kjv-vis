@@ -6,11 +6,7 @@ This repository also examines the interconnections between the various books by 
 
 In addition to the textual and referential analysis, the repository extends its exploration into the historical and geographical realms of the Bible. It presents a timeline of significant biblical events, covering both BC and AD periods, and details the duration and context of these events along with their scriptural connections. Complementing the timeline, a mapping of ancient and modern biblical sites is provided, linking geographical locations with corresponding verses to offer insights into the historical landscape that underpins the biblical world.
 
-For more information about the training process, please check the `kjv.ipynb`, `kjv_cr.ipynb`, and `kjv_timeline.ipynb` file in the `training` folder.
-
-[Check here to see my other ML projects and tasks](https://github.com/verneylmavt/ml-model).
-
----
+For more information about the training process, please check the `kjv.ipynb`, `kjv_cr.ipynb`, and `kjv_timeline.ipynb` file in the `training` folder. [Check here to see my other ML projects and tasks](https://github.com/verneylmavt/ml-model).
 
 ## 🎈 Demo App
 
