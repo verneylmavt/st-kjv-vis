@@ -1097,7 +1097,8 @@ def bib_cr():
 # ----------------------
 
 def main():
-    st.set_page_config(layout="wide")
+    st.set_page_config(page_title="Bible Analysis and Visualization",
+                    layout="wide")
     
     st.title("KJV Bible Analysis and Visualization")
     st.divider()
