@@ -5,7 +5,6 @@ import json
 import streamlit as st
 import streamlit.components.v1 as components
 from streamlit_extras.mention import mention
-from streamlit_extras.echo_expander import echo_expander
 
 import spacy
 
